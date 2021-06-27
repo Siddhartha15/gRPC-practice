@@ -1,6 +1,6 @@
 syntax = "proto3";
 
 package greet;
-option go_package="greetpb/";
+option go_package="github.com/Siddhartha15/gRPC-practice/greet/greetpb;greetpb";
 
 service GreetService{}
